@@ -1,0 +1,15 @@
+﻿@model parcial.Models.cajero
+@{
+    ViewBag.Title = "IndexVista";
+}
+
+<h2>Cajero automatico</h2>
+
+@using (Html.BeginForm("IndexVista", "cajero", FormMethod.Post))
+{<form action="" method="post"></form>
+            <br />
+            <label>Ingrese el Monto:</label>
+            @Html.TextBoxFor(a => a.dato)
+            <input type="text" name="" id="">
+            <button class="btn btn-primary" type="submit">Enviar </button>
+} 
